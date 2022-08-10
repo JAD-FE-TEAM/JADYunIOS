@@ -1,0 +1,23 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'JADYun_Example' do
+  pod 'Masonry'
+  pod 'SDWebImage'
+  
+  #方式一、全功能包集成
+  pod 'JADYun'
+  
+  #方式二、多子包集成，可按需集成
+#   pod 'JADYunCore'
+#   pod 'JADYunNative'
+#   pod 'JADYunSplash'
+#   pod 'JADYunBanner'
+#   pod 'JADYunFeed'
+#   pod 'JADYunInterstitial'
+  
+  target 'JADYun_Tests' do
+    inherit! :search_paths
+  end
+end
