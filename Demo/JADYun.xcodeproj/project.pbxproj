@@ -42,8 +42,6 @@
 		59C441702511C3EC0034C9CD /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 59C4416F2511C3EC0034C9CD /* libsqlite3.tbd */; };
 		59C441722511C3F90034C9CD /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59C441712511C3F90034C9CD /* CoreLocation.framework */; };
 		59C441742511C4040034C9CD /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59C441732511C4040034C9CD /* MapKit.framework */; };
-		59F39A9E281955F100BF96BA /* shake.json in Resources */ = {isa = PBXBuildFile; fileRef = 59F39A9D281955F100BF96BA /* shake.json */; };
-		59F39AA0281A393F00BF96BA /* splashSlide.json in Resources */ = {isa = PBXBuildFile; fileRef = 59F39A9F281A393F00BF96BA /* splashSlide.json */; };
 		59FDCF7D256BB20B009495BD /* JADNativeNormalFeedAdTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FDCF7C256BB20B009495BD /* JADNativeNormalFeedAdTableViewCell.m */; };
 		5BDC7AD59D04E97951A875CC /* Pods_JADYun_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7923EF9A6367BD55F8B9BA8D /* Pods_JADYun_Tests.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -153,8 +151,6 @@
 		59C4416F2511C3EC0034C9CD /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
 		59C441712511C3F90034C9CD /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		59C441732511C4040034C9CD /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
-		59F39A9D281955F100BF96BA /* shake.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = shake.json; sourceTree = "<group>"; };
-		59F39A9F281A393F00BF96BA /* splashSlide.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = splashSlide.json; sourceTree = "<group>"; };
 		59FDCF7B256BB20B009495BD /* JADNativeNormalFeedAdTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JADNativeNormalFeedAdTableViewCell.h; sourceTree = "<group>"; };
 		59FDCF7C256BB20B009495BD /* JADNativeNormalFeedAdTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JADNativeNormalFeedAdTableViewCell.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* JADYun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JADYun.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -298,8 +294,6 @@
 		59143C122562B04E00F64063 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
-				59F39A9F281A393F00BF96BA /* splashSlide.json */,
-				59F39A9D281955F100BF96BA /* shake.json */,
 				59143C132562B04E00F64063 /* normalInfo.cactus */,
 			);
 			path = Resource;
@@ -519,10 +513,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59F39AA0281A393F00BF96BA /* splashSlide.json in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				59143C142562B04E00F64063 /* normalInfo.cactus in Resources */,
-				59F39A9E281955F100BF96BA /* shake.json in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
