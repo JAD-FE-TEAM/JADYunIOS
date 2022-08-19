@@ -1,8 +1,8 @@
 Pod::Spec.new do |s|
   s.name = "JADYun"
-  s.version = "2.0.1"
+  s.version = "2.0.0"
   s.summary = "AN SDK."
-  s.license = {"type"=>"MIT", "file"=>"LICENSE"}
+  s.license = 'MIT'
   s.authors = {"shuaishuai331"=>"wangshuai331@jd.com"}
   s.homepage = "https://github.com/JAD-FE-TEAM/JADYunIOS"
   s.description = "JD Ad SDK Project."
